@@ -1,58 +1,68 @@
-<style>
+
 @font-face {
     font-family: Roboto;
    src: url("./Roboto-Italic.ttf")
 }
-</style>
 
-<style>
 .body {
 font-family: 'Roboto', sans-serif;
 }
-</style>
 
-<style>
 * {
     box-sizing: border-box;
 }
-</style>
 
-<style>
  body {
     display: flex;
   flex-direction: column;
   justify-content: space-between;
  }
- </style>
 
-<style>
  .container {
     max-width: 1440px;
     margin: 0 auto;
  }
- </style>
 
- <style>
  html {
     scroll-behavior: smooth; 
   }
-</style>
 
-<style>
 .section-title {
     font-size: 20px;
 font-weight: 400;
 text-transform: uppercase;
 letter-spacing: 5px;
 }
-</style>
+ 
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+ }
 
-<style>
-        .section-title {
-            font-size: 20px;
-        font-weight: 400;
-        text-transform: uppercase;
-        letter-spacing: 5px;
-        }
-        </style>
-        
+ .nav-list {
+    list-style: none;
+  }
+
+  .nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+  }
+
+  .nav-link {
+    transition: .3s;
+}
+
+.section-item a {
+    color: #829985;
+    text-decoration: none;  
+    transition: color 0.5s;
+  }
+
+  .section-item a:hover {
+    color: #4b2424;
+  }
+
+  {
+    font-size: 20px;
+  }
